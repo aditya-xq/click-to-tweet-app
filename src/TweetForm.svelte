@@ -54,6 +54,7 @@
 	.form-container {
 		padding-top:40px;
 		width:80%;
+		padding-bottom: 40px;
 	}
 	
 	/* Create three equal columns that floats next to each other */
@@ -91,7 +92,6 @@
 		text-align:left;
 		color:#1DA1F2;
 		vertical-align:middle;
-		padding-left:30px;
 		font-size:20px;
 		font-weight:500;
 	}
@@ -99,15 +99,11 @@
 		padding-left:5px;
 	}
 	.click-container{
-		padding-left: 30px;
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 	.final-string {
 		padding-left:10px;
-	}
-	.string-container {
-		padding-left: 30px;
 	}
 	button {
 		background:	#1DA1F2;
@@ -162,7 +158,7 @@
 		<button on:click={encodeQuery}>Generate</button>
 		<button on:click={clearAll}>Clear all</button>
 	</div>
-	<div class="string-container">
+	<div>
 		<input class="final-string" type="text" value={tweet} id="myTweet">
 		<!-- The button used to copy the text -->
 		<button on:click={copyToClipboard}>Copy string</button>
