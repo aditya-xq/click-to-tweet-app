@@ -14,7 +14,7 @@
 		text-decoration: underline;
 	}
 	.main{
-		height: 92%;
+		height: 100%;
 		padding:50px;
 		background:#243447;
 	}
