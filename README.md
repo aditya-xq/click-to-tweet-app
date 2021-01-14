@@ -2,7 +2,7 @@
 
 A simple svelte based webapp to generate "click to tweet" strings
 
-![Image of UI design](https://miro.medium.com/proxy/1*i3lbnY-fLSg9Vw_SV2lx3w.png)
+<img src="https://miro.medium.com/proxy/1*i3lbnY-fLSg9Vw_SV2lx3w.png" width=500px height=400px/>
 
 ## Overview
  
