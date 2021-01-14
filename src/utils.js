@@ -1,3 +1,4 @@
+// Used for copying the generated the string into your clipboard
 export function copyToClipboard(id) {
     var copyText = document.getElementById(id) || null;
     if (copyText !== null) {
@@ -10,6 +11,7 @@ export function copyToClipboard(id) {
     }
 }
 
+// Generates the tweet url string which can be used for click-to-tweet functionality
 export function encodeTweet(text, url, hashtags, username) {
     let data = {
         baseUrl : 'https://twitter.com/intent/tweet?',
@@ -20,7 +22,6 @@ export function encodeTweet(text, url, hashtags, username) {
             'via':username,
             }
         }
-        console.log(data);
     let query = data.baseUrl 
     for (let d in data.params) {
         if (data.params[d] !== '')

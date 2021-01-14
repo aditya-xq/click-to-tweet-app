@@ -91,7 +91,7 @@
 		<CustomButton onClick={clearAll} buttonText="Clear all"/>
 	</div>
 	<div>
-		<CustomInput class="final-string" type="text" value={tweet} id="myTweet"/>
+		<CustomInput type="text" value={tweet} id="myTweet"/>
 		<CustomButton onClick={() => copyToClipboard("myTweet")} buttonText="Copy String"/>
 	</div>
 </div>

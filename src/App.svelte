@@ -23,5 +23,9 @@
 <div class="main">
 	<div class="title">Click to tweet generator (v1.1)</div>
 	<TweetForm/>
-	<a class="sub-title" href='https://xq-is-here.medium.com/' target="_blank" rel="noopener noreferrer">Made with <span style="color: #e25555;">&#9829;</span> by XQ</a>
+	<a class="sub-title"
+	   href='https://xq-is-here.medium.com/'
+	   target="_blank"
+	   rel="noopener noreferrer">Made with <span style="color: #e25555;">&#9829;</span> by XQ
+	</a>
 </div>
