@@ -16,5 +16,12 @@ Url to the web-app: https://click-to-tweet.netlify.app/
 
 [Click to tweet](https://twitter.com/intent/tweet?text=A%20tutorial%20to%20build%20a%20web%20app%20in%20Svelte&url=bit.ly%2Fxq-svelte-1&hashtags=svelte%2Cdev%2Cblog%2Ctech%2Cjavascript&via=xq_is_here) about this project!
 
- 
+## To run locally
+
+```
+cd path to your project folder
+npm run dev
+```
+Visit http://localhost:5000/ to access the live webapp.
+
 More documentation coming soon!
