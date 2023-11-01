@@ -23,5 +23,3 @@ cd path to your project folder
 npm run dev
 ```
 Visit http://localhost:5000/ to access the live webapp.
-
-More documentation coming soon!
